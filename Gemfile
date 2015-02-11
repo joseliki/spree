@@ -1,7 +1,13 @@
 source 'https://rubygems.org'
 
-gem 'rails', '4.1.4'
-
+gem 'rails', '4.1.8'
+gem 'spree', '2.4.2'
+gem 'spree_api', '2.4.2'
+gem 'spree_frontend', '2.4.2'
+gem 'spree_core', '2.4.2'
+gem 'railties', '4.1.8'
+gem 'json', '1.8.2'
+gem 'jquery-rails', '3.1.2'
 ### OpenShift Online changes:
 
 # Fix the conflict with the system 'rake':
@@ -17,7 +23,7 @@ gem 'rake', '~> 0.9.6'
 # $ rhc env set BUNDLE_WITHOUT="development test postgresql"
 #
 group :development, :test do
-  gem 'sqlite3'
+#  gem 'sqlite3'
   gem 'minitest'
   gem 'thor'
 end
@@ -28,7 +34,7 @@ group :production, :mysql do
 end
 
 group :production, :postgresql do
-  gem 'pg'
+#  gem 'pg'
 end
 
 ### / OpenShift changes
@@ -43,7 +49,7 @@ gem 'coffee-rails', '~> 4.0.0'
 # gem 'therubyracer',  platforms: :ruby
 
 # Use jquery as the JavaScript library
-gem 'jquery-rails'
+#gem 'jquery-rails', '~> 3.1.1' 
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
@@ -58,11 +64,13 @@ gem 'spring',        group: :development
 # gem 'bcrypt', '~> 3.1.7'
 
 # Use unicorn as the app server
-# gem 'unicorn'
+ gem 'unicorn'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+
+
 
