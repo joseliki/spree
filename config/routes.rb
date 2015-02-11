@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+<<<<<<< HEAD
 
   # This line mounts Spree's routes at the root of your application.
   # This means, any requests to URLs such as /products, will go to Spree::ProductsController.
@@ -7,6 +8,9 @@ Rails.application.routes.draw do
   # We ask that you don't use the :as option here, as Spree relies on it being the default of "spree"
   mount Spree::Core::Engine, :at => '/'
           # The priority is based upon order of creation: first created -> highest priority.
+=======
+  # The priority is based upon order of creation: first created -> highest priority.
+>>>>>>> 7dadb2888b541202861cc341e2799ec9d8abf67b
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"

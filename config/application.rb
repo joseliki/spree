@@ -6,6 +6,7 @@ require 'rails/all'
 # you've limited to :test, :development, or :production.
 Bundler.require(*Rails.groups)
 
+<<<<<<< HEAD
 module Store
   class Application < Rails::Application
     
@@ -21,6 +22,10 @@ module Store
       end
     end
 
+=======
+module Rails4Example
+  class Application < Rails::Application
+>>>>>>> 7dadb2888b541202861cc341e2799ec9d8abf67b
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded.
