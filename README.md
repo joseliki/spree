@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Rails 4 Sample App on OpenShift #
 Quickstart rails 4 application for openshift.
 
@@ -147,3 +148,7 @@ License
 -------
 
 This code is dedicated to the public domain to the maximum extent permitted by applicable law, pursuant to CC0 (http://creativecommons.org/publicdomain/zero/1.0/)
+=======
+# spree
+repositorio sobre aplicacion spree ruby on rails
+>>>>>>> 4b224be7f3af3c209f26232f8f520b2ae7891c2c
